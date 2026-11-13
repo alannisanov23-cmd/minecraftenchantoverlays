@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "pickaxetag",
+  "version": "${version}",
+  "name": "Enchant Tag",
+  "description": "Shows a floating enchantment label (Silk Touch / Fortune highlighted) above dropped tools and armor.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.pickaxetag.PickaxeTagClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
